@@ -1,0 +1,25 @@
+{
+  "name": "webdiary",
+  "version": "1.0.0",
+  "description": "just for webdiary (blog)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoliang2535/webdiary.git"
+  },
+  "keywords": [
+    "webdiary"
+  ],
+  "author": "echochi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoliang2535/webdiary/issues"
+  },
+  "homepage": "https://github.com/xiaoliang2535/webdiary#readme",
+  "bin": {
+    "webdiary": "./bin/webdiary.js"
+  }
+}
