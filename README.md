@@ -14,5 +14,3 @@ just for web diary
 - 自动化前端项目
 - 移动端图片格式
 - 前端问题的调试
-- 用nodejs创建命令行
-

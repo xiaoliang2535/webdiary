@@ -18,25 +18,27 @@ program
     .allowUnknownOption()
     .version('0.0.1')
     .option('-c, --create', 'create webdiary dir')
-    .option('-o, --option', 'option info')
+    .option('-o, --optioninfo', 'option info')
     .option('-c, --cheese [type]', 'Add the specified type of cheese [marble]', 'marble')
 
 if(program.create) {
     log('create begin');
 }
 
-if(program.option) {
+if(program.optioninfo) {
     log('option 有四个参数，命令简写｜命令全拼, 描述, 回调函数, 默认值 ')
 }
 
 program.on('--help', function() {
-    log('自定义help参数');
+    log('welcome');
     log('=========================')
     log('      ︵')
     log('("\\ (●-●)')
     log(' \\/      0\\\\')
     log('  (       )"')
     log('   \\__T__/')
+    log('=========================')
+    log('                - by echo')
 });
 
 console.log('  - %s cheese', program.cheese);

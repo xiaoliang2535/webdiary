@@ -21,5 +21,9 @@
   "homepage": "https://github.com/xiaoliang2535/webdiary#readme",
   "bin": {
     "webdiary": "./bin/webdiary.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0"
   }
 }

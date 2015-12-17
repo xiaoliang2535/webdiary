@@ -111,30 +111,17 @@ $ sudo npm install -g webdiary
 
 自记录代码、自动生成帮助、合并短参数、默认选项、强制选项​​、命令解析、提示符
 
-API： http://tj.github.io/commander.js/
+API：
 
-##### 安装
+https://www.npmjs.com/package/commander
+http://tj.github.io/commander.js/
 
-```
-$ npm install commander
-```
-
-##### 常用API
-
-```
-var program = require('commander');
-
-program
-    .version('0.0.1')
-    .option('-c, --create', 'create webdiary dir')
-    .parse(process.argv);
-
-if (program.create) {
-    console.log('create begin');
-}
-```
 
 ### 三、yargs
+
+API：
+
+https://www.npmjs.com/package/yargs
 
 ### 未完待续ing
 
