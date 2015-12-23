@@ -16,3 +16,4 @@ just for web diary
 - 前端问题的调试
 - cocos2d
 - 浏览器解析
+- 面向对象结构设计
