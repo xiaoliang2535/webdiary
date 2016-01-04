@@ -18,3 +18,4 @@ just for web diary
 - 浏览器解析
 - 面向对象结构设计
 - glup 脚本编写
+- Jcrop
